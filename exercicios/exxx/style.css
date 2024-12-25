@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgba(78, 173, 173, 0.712);
+    font-family: serif;
+    text-align: justify;
+}
+
+h1 {
+    background-color: rgb(61, 51, 204);
+    text-align: center;
+    text-decoration: underline;
+}
+
+h2 {
+    background-color: rgb(194, 20, 20);
+    text-align: center;
+    text-decoration: underline;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+li {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}

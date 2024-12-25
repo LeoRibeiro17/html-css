@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videos com HTML5</title>
+</head>
+<body>
+    <h1>Inserindo videos hospedados localmente</h1>
+    <p>Este video esta no meu proprio servidor.</p>
+
+     <video
+         width="560" poster="imagens/limoes-capa.png" controls
+             autoplay loop>
+            <source src="midia/meu-video.MP4.mp4" type="video/mp4">
+            <source src="midia/meu-video.M4V.m4v" type="video/mp4">
+            <source src="midia/meu-video.WEBM.webm" type="video/webm">
+            <source src="midia/meu-video.ogv" type="video/ogg">
+            <p>Seu navegador nao tem compatibilidade com reproduçao de videos.</p>
+     </video>
+
+        <h1>Inserindo videos do Youtube</h1>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/GaOv9LUNZFc?si=ribk5IyEM3qvOVDV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+        <h1>Inserindo videos do Vimeo</h1>
+        <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/210084478?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" style="position:absolute;top:0;left:0;width:90%;height:100%;" title="Reel2016"></iframe>
+</body>
+</html>
