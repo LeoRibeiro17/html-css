@@ -1,5 +1,6 @@
 @charset "UTF-8";
 
 body {
+   background-image: url(../imagens/curso_em_video.jpg) ;
    background-position: center  bottom;
 }
