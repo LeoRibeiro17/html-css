@@ -19,7 +19,7 @@
     }
 }
 
-@media screen and (min-widht:768px) and (max-widht: 992px) {
+@media screen and (min-widht: 768px) and (max-widht: 992px) {
     body {
         background-image: url(../imagens/back-tablet.jpg);
     }
